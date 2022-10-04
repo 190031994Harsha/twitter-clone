@@ -1,0 +1,33 @@
+{
+  "name": "tommy",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://190031994Harsha.github.io/twitter-clone",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "engines": {
+    "node": "18.8.0"
+  },
+  "author": "harsha",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "darkmode-js": "^1.5.7",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.10.9",
+    "multer": "^1.4.2",
+    "pug": "^3.0.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
